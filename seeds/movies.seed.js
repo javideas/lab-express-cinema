@@ -1,6 +1,6 @@
 // To insert in "seeds/movies.seed.js"
 
-const movies = [
+const MoviesList = [
     {
       title: "A Wrinkle in Time",
       director: "Ava DuVernay",
@@ -81,8 +81,12 @@ const movies = [
         "Ballerina Dominika Egorova is recruited to 'Sparrow School,' a Russian intelligence service where she is forced to use her body as a weapon. Her first mission, targeting a C.I.A. agent, threatens to unravel the security of both nations.",
       showtimes: ["13:00", "15:30", "18:00", "20:10", "22:40"]
     }
-  ];
-  
+];
+
+
+
   // Add here the script that will be run to actually seed the database (feel free to refer to the previous lesson)
-  
+module.exports = MoviesList;
   // ... your code here
+
+  
